@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FLAMES</title>
+    <link  rel="shortcut icon" href="logo.png" type="image/x-icon"/>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="form">
+        <div class="box">
+          <h1 class="heading">FLAMES</h1>
+        </div>
+        <input type="text" id="name1" placeholder="Your Name "/>
+        <br />
+        <input type="text" id="name2" placeholder="Your Crush's Name"/>
+        <br />
+        <button onclick="calculateFlames()">Calculate</button>
+        <button onclick="resetFlames()" >Reset</button>
+        <div id="error" class="error"></div>
+        <div id="result" class="result"></div>
+      </div>
+    </div>
+    <div>
+        <script src="script.js"></script> 
+    </div>
+  </body>
+</html>
